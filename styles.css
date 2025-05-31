@@ -168,6 +168,7 @@ body {
         padding: 15px;
         justify-content: center;
         gap: 20px;
+        flex-direction: column-reverse;
     }
 
     .hero-content {
@@ -176,18 +177,22 @@ body {
 
     .ui {
         font-size: 3.5rem;
+        text-align: center;
     }
 
     .des {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .port {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .hero p {
         font-size: 1.2rem;
+        text-align: center;
     }
 
     .hero button {
@@ -195,15 +200,18 @@ body {
         height: 30px;
         font-size: 12px;
         border-radius: 7px;
+        margin: 0 auto;
     }
 
     .hero-image {
-        width: 128px;
+        width: 200px;
         height: 200px;
+        border-radius: 50%;
     }
 
     .hero-image img {
-        border-radius: 10px;
+        border-radius: 50%;
+
     }
 
 }
