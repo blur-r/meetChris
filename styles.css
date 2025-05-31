@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
     box-sizing: border-box;
 }
@@ -9,11 +9,21 @@ body {
     background-color: #021222;
 }
 
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+header h1 {
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
 .hero {
     height: 100vh;
-    /* background-image: url("./images/unsplash_spWdryVJa7o.png");
-    background-size: cover;
-    background-position: center; */
     background-color: black;
     padding: 50px;
     display: flex;
@@ -29,11 +39,28 @@ body {
     gap: 50px;
 }
 
+.hero-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.hero-icons a {
+    color: white;
+    text-decoration: none;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
     text-align: left;
     gap: 0;
+}
+
+.intro h1,
+.intro h2 {
+    margin-top: -15px !important;
+    margin-bottom: 0 !important;
 }
 
 .ui {
@@ -82,9 +109,16 @@ body {
 .hero-image img {
     width: 100%;
     height: 100%;
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 768px) {
+
+    header h1 {
+        padding-left: 30px;
+        font-size: 20px;
+
+    }
 
     .hero {
         padding: 30px;
@@ -164,15 +198,29 @@ body {
 
 @media screen and (max-width: 440px) {
 
+    header h1 {
+        padding-left: 20px;
+        font-size: 16px;
+
+    }
+
+    .intro h1,
+    .intro h2 {
+        margin-top: -10px !important;
+        margin-bottom: 0 !important;
+    }
+
     .hero {
         padding: 15px;
         justify-content: center;
+        align-items: center;
         gap: 20px;
         flex-direction: column-reverse;
     }
 
     .hero-content {
         gap: 10x;
+        align-items: center;
     }
 
     .ui {
@@ -195,12 +243,17 @@ body {
         text-align: center;
     }
 
-    .hero button {
+    .download-cv {
         width: 116px;
         height: 30px;
         font-size: 12px;
         border-radius: 7px;
+
+    }
+
+    .hero-icons {
         margin: 0 auto;
+        justify-content: center;
     }
 
     .hero-image {
