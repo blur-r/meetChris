@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+    background-color: #021222;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("./images/unsplash_spWdryVJa7o.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0;
+}
+
+.ui {
+    font-size: 96px;
+    color: #7838D8;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.des {
+    font-size: 64px;
+    font-weight: bolder;
+    color: white;
+}
+
+.port {
+    font-size: 64px;
+    color: #7838D8;
+    font-weight: bolder;
+}
+
+.hero p {
+    font-size: 36px;
+    color: white;
+    font-weight: bolder;
+}
+
+.hero button {
+    border: none;
+    width: 157px;
+    height: 51px;
+    border-radius: 14px;
+    background-color: #200E3C;
+    color: #C7C7C7;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero-image {
+    width: 378px;
+    height: 497px;
+    border-radius: 30px;
+    box-shadow: 23px 35px 83px 8px rgba(85, 40, 48, 0.59);
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        padding: 30px;
+    }
+
+    .hero-content {
+        gap: 25px;
+    }
+
+    .ui {
+        font-size: 3.5rem;
+    }
+
+    .des {
+        font-size: 2.8rem;
+    }
+
+    .port {
+        font-size: 2.8rem;
+    }
+
+    .hero p {
+        font-size: 1.8rem;
+    }
+
+    .hero button {
+        width: 157px;
+        height: 51px;
+    }
+
+    .hero-image {
+        width: 278px;
+        height: 350px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+
+    .hero {
+        padding: 25px;
+    }
+
+    .hero-content {
+        gap: 20px;
+    }
+
+    .ui {
+        font-size: 2.9rem;
+    }
+
+    .des {
+        font-size: 2.3rem;
+    }
+
+    .port {
+        font-size: 2.3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .hero button {
+        width: 136px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .hero-image {
+        width: 228px;
+        height: 300px;
+        border-radius: 16px;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+
+    .hero {
+        padding: 15px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero-content {
+        gap: 10x;
+    }
+
+    .ui {
+        font-size: 2.5rem;
+    }
+
+    .des {
+        font-size: 1.5rem;
+    }
+
+    .port {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.8rem;
+    }
+
+    .hero button {
+        width: 116px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .hero-image {
+        width: 128px;
+        height: 200px;
+    }
+
+    .hero-image img {
+        border-radius: 10px;
+    }
+
+}
+
+/* END OF HERO SECTION STYLING */
