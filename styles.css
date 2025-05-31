@@ -174,25 +174,26 @@ body {
     }
 
     .ui {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     .des {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .port {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .hero p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .hero button {
         width: 116px;
         height: 30px;
         font-size: 12px;
+        border-radius: 7px;
     }
 
     .hero-image {
