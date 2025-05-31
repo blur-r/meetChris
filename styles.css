@@ -323,6 +323,11 @@ header h1 {
 }
 
 @media screen and (max-width: 425px) {
+
+    .introduction {
+        padding: 50px 25px;
+    }
+
     .introduction :nth-child(1) {
         font-size: 14px;
         color: white;
@@ -427,6 +432,10 @@ header h1 {
 }
 
 @media screen and (max-width: 425px) {
+
+    .introduction {
+        padding: 50px 25px;
+    }
 
     .key {
         font-size: 25px;
