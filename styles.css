@@ -662,3 +662,116 @@ header h1 {
         height: 290px;
     }
 }
+
+/* START OF CONTACT SECTION STYLING */
+.contact {
+    padding: 100px 50px;
+    color: white;
+}
+
+.form-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 50px;
+    background-color: #180B2D;
+    border-radius: 30px;
+    margin-left: 110px !important;
+}
+
+.form-container p {
+    color: #CECECE;
+    font-weight: 200;
+}
+
+form button {
+    width: 97px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #200E3C;
+    color: white;
+}
+
+.form-container h1 {
+    font-weight: bolder;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    height: 201px;
+    border-radius: 10px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #200E3C;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 48px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #200E3C;
+}
+
+
+
+/* START OF CONTACT SECTION MEDIAQUERY */
+
+@media screen and (max-width: 1024px) {
+    .form-container {
+        width: 60%;
+        margin-left: 50px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form-container {
+        width: 80%;
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .form-container {
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .contact {
+        padding: 100px 0;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        height: 35px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+
+    textarea {
+        height: 150px;
+
+    }
+
+    form {
+        gap: 15px;
+    }
+}
