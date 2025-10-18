@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+    background-color: #021222 !important;
+}
+
+.backArrow {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .backArrow {
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    .backArrow a i {
+        font-size: 10px;
+    }
+}
+
+.backArrow a {
+    color: white;
+}
+
+.backArrow a i {
+    font-size: 24px;
+}
+
+main {
+    padding: 10px 50px 50px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px 20px 20px 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+
+.introduction :nth-child(3) {
+    font-weight: bolder;
+    color: #7838D8;
+    font-size: 48px;
+}
+
+.introduction :nth-child(2) {
+    font-size: 24px;
+    color: white;
+    letter-spacing: 10px;
+    margin-bottom: -7px;
+}
+
+.introduction :nth-child(1) {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .introduction :nth-child(3) {
+        font-weight: bolder;
+        color: #7838D8;
+        font-size: 43px;
+
+    }
+
+    .introduction :nth-child(2) {
+        font-size: 20px;
+        color: white;
+        letter-spacing: 10px;
+    }
+
+    .introduction :nth-child(1) {
+        font-size: 24px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+
+
+    .introduction :nth-child(3) {
+        font-weight: bolder;
+        color: #7838D8;
+        font-size: 30px;
+    }
+
+    .introduction :nth-child(2) {
+        font-size: 14px;
+        color: white;
+        letter-spacing: 6px;
+    }
+
+    .introduction :nth-child(1) {
+        font-size: 18px;
+        color: white;
+    }
+}
+
+.con {
+    color: white;
+    padding-top: 20px;
+}
+
+.con-title {
+    color: #7838D8;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.con-info {
+    font-size: 27px;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .con-info {
+        font-size: 22px;
+        padding: 15px 0;
+    }
+
+    .con-title {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .con-info {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+
+    .con-title {
+        font-size: 28px;
+    }
+
+}
